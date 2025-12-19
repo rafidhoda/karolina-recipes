@@ -75,5 +75,46 @@ export const recipes: Recipe[] = [
       },
     ],
   },
+  {
+    slug: "pasta-salad",
+    title: "Pasta Salad",
+    description: "Bright, quick pasta salad with pesto, mozzarella, and fresh greens.",
+    tags: ["pasta", "salad", "quick"],
+    time: {
+      prep: "5 min",
+      cook: "8 min",
+      total: "15 min",
+    },
+    servings: "",
+    ingredients: [
+      {
+        heading: "Ingredients",
+        items: [
+          "Pasta",
+          "Mozzarella",
+          "Tomatoes",
+          "Pesto",
+          "Ruccola",
+          "Nuts",
+        ],
+      },
+    ],
+    steps: [
+      {
+        heading: "Method",
+        steps: [
+          "Boil pasta for 7–8 minutes until al dente.",
+          "Drain, then transfer the pasta to a bowl.",
+          "Stir in pesto to coat.",
+          "Season with salt.",
+          "Add mozzarella.",
+          "Add ruccola.",
+          "Roughly chop the nuts and add them.",
+          "Mix everything together.",
+          "Enjoy.",
+        ],
+      },
+    ],
+  },
 ];
 
