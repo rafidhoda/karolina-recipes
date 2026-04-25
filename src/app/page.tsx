@@ -16,7 +16,7 @@ export default function Home() {
         </p>
         <div className="flex items-center gap-3 text-sm text-zinc-600">
           <span className="rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-amber-800 shadow-inner">
-            {recipes.length} recipe
+            {recipes.length} {recipes.length === 1 ? "recipe" : "recipes"}
           </span>
           <span>More coming soon.</span>
         </div>

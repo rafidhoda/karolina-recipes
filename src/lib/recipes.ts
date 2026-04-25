@@ -27,6 +27,74 @@ export type Recipe = {
 
 export const recipes: Recipe[] = [
   {
+    slug: "honey-garlic-chili-chicken",
+    title: "Honey Garlic Chili Chicken",
+    description:
+      "Sticky, glossy chicken with sesame and chili. Eat it over rice or in a wrap. Great for meal prep — even better the next day.",
+    tags: ["chicken", "quick", "meal prep", "asian"],
+    time: {
+      prep: "10 min",
+      cook: "10 min",
+      total: "20 min",
+    },
+    servings: "2 portions (about 450 g chicken)",
+    ingredients: [
+      {
+        heading: "Marinade",
+        items: [
+          "450 g chicken, cut into bite-size pieces",
+          "1 tbsp soy sauce",
+          "1 tsp sesame oil",
+          "1 tsp paprika",
+          "Pinch of salt",
+          "Pinch of black pepper",
+        ],
+      },
+      {
+        heading: "Sauce",
+        items: [
+          "2 tbsp honey",
+          "1 tbsp soy sauce",
+          "1 tsp chili oil (more if you want it spicier)",
+          "1 tsp sesame oil",
+          "4 garlic cloves, minced",
+          "2 tbsp water",
+        ],
+      },
+      {
+        heading: "To serve",
+        items: [
+          "Cooked rice or tortilla wraps",
+          "Cucumber, sliced",
+          "Spring onion or sesame seeds (optional)",
+        ],
+      },
+    ],
+    steps: [
+      {
+        heading: "Method",
+        steps: [
+          "Toss the chicken with the marinade ingredients and let it sit for 5 minutes while you prep the sauce.",
+          "Mix all sauce ingredients in a small bowl.",
+          "Heat a neutral oil in a pan on high heat.",
+          "Add the chicken in a single layer (don't crowd it). Sear about 3 minutes per side until golden.",
+          "Push the chicken to one side, drop in the minced garlic and cook for 20 seconds.",
+          "Pour the sauce over everything. Toss to coat.",
+          "Let it bubble for 2–3 minutes until the sauce reduces and turns glossy and sticky.",
+          "Serve over rice or in a wrap with sliced cucumber. Top with sesame seeds or spring onion if you have them.",
+        ],
+      },
+      {
+        heading: "Meal prep",
+        steps: [
+          "Cook the chicken fully and let it cool.",
+          "Store in an airtight container in the fridge for up to 3 days.",
+          "Reheat in a pan with a splash of water to loosen the sauce.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "pinsa-pizza",
     title: "Pinsa Pizza",
     description:
