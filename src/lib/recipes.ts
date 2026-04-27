@@ -144,22 +144,38 @@ export const recipes: Recipe[] = [
     ],
   },
   {
-    slug: "butter-curry",
-    title: "Butter Curry",
+    slug: "paneer-butter-masala",
+    title: "Paneer Butter Masala",
     description:
-      "Rich, creamy tomato-and-cream curry. Pour over fried halloumi, paneer, or chicken. Pairs with naan, rice, or just a green salad.",
-    tags: ["curry", "indian", "vegetarian", "quick"],
+      "The vegetarian butter chicken. Fried paneer simmered in a spiced tomato-and-cream sauce. Serve with basmati rice or naan.",
+    tags: ["curry", "indian", "vegetarian", "paneer"],
     time: {
-      prep: "5 min",
-      cook: "25 min",
-      total: "30 min",
+      prep: "10 min",
+      cook: "30 min",
+      total: "40 min",
     },
-    servings: "2-3 portions",
+    servings: "3-4 portions",
     ingredients: [
+      {
+        heading: "Paneer",
+        items: [
+          "450 g paneer, cut into small cubes",
+          "4 tbsp canola oil (divided)",
+        ],
+      },
+      {
+        heading: "Aromatics",
+        items: [
+          "1 small cinnamon stick",
+          "2 green cardamom pods",
+          "2 cloves",
+          "1 small onion, finely chopped",
+        ],
+      },
       {
         heading: "Sauce",
         items: [
-          "½ cup butter, cut into cubes",
+          "½ cup butter, cut into cubes (divided)",
           "2 cups tomato sauce (passata works well)",
           "1 tbsp sugar",
           "1 tsp red chili powder",
@@ -172,9 +188,7 @@ export const recipes: Recipe[] = [
       {
         heading: "To serve",
         items: [
-          "Halloumi, sliced and fried (or paneer, or pre-cooked chicken)",
-          "A simple green salad",
-          "Naan or rice (optional)",
+          "Basmati rice or naan",
         ],
       },
     ],
@@ -182,21 +196,22 @@ export const recipes: Recipe[] = [
       {
         heading: "Method",
         steps: [
-          "Melt ¼ cup of butter in a large pan on medium heat.",
-          "Add tomato sauce, sugar, red chili powder, 1 tbsp of fenugreek leaves, and garam masala. Stir and bring to a gentle simmer.",
-          "Cook for 15 to 20 minutes until the sauce thickens and the butter starts to separate. Stir every few minutes so nothing sticks.",
-          "Add the rest of the butter and the heavy cream. Reserve a few tablespoons of cream for garnish if you want.",
-          "Taste and add salt. Simmer for 5 more minutes.",
+          "Heat 3 tbsp of the oil in a large non-stick pan on medium-high.",
+          "Add the paneer in batches (don't crowd the pan). Cook, turning, until golden on all sides. Drain on paper towel.",
+          "In the same pan, add the last 1 tbsp of oil. Add cinnamon stick, cardamom pods, and cloves. Heat 10 to 15 seconds, until the cloves puff up.",
+          "Add the onion. Sauté until soft and slightly golden.",
+          "Add ¼ cup of the butter, the tomato sauce, sugar, red chili powder, 1 tbsp of the fenugreek leaves, and the garam masala. Stir.",
+          "Cook for 15 to 20 minutes, stirring occasionally, until the tomatoes thicken and the butter starts to separate.",
+          "Add the rest of the butter and the cream (reserve a few tablespoons of cream for garnish). Salt to taste.",
+          "Return the paneer to the pan. Simmer 1 minute to heat through.",
           "Garnish with the remaining fenugreek leaves and a drizzle of cream.",
         ],
       },
       {
-        heading: "With halloumi",
+        heading: "Substitutions",
         steps: [
-          "While the sauce simmers, slice halloumi about 1 cm thick.",
-          "Fry in a dry pan on medium-high until golden on both sides (about 2 minutes per side).",
-          "Pour the curry over the halloumi, or serve them next to each other so the halloumi stays crisp.",
-          "Add a green salad on the side.",
+          "No paneer? Halloumi works. Slice 1 cm thick and fry the same way.",
+          "Pre-cooked chicken also works. Add it at the end when you return the paneer.",
         ],
       },
     ],
