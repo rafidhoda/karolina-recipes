@@ -144,6 +144,64 @@ export const recipes: Recipe[] = [
     ],
   },
   {
+    slug: "butter-curry",
+    title: "Butter Curry",
+    description:
+      "Rich, creamy tomato-and-cream curry. Pour over fried halloumi, paneer, or chicken. Pairs with naan, rice, or just a green salad.",
+    tags: ["curry", "indian", "vegetarian", "quick"],
+    time: {
+      prep: "5 min",
+      cook: "25 min",
+      total: "30 min",
+    },
+    servings: "2-3 portions",
+    ingredients: [
+      {
+        heading: "Sauce",
+        items: [
+          "½ cup butter, cut into cubes",
+          "2 cups tomato sauce (passata works well)",
+          "1 tbsp sugar",
+          "1 tsp red chili powder",
+          "2 tbsp dried fenugreek leaves (kasuri methi), divided",
+          "1 tsp garam masala",
+          "2 cups heavy cream",
+          "Salt to taste",
+        ],
+      },
+      {
+        heading: "To serve",
+        items: [
+          "Halloumi, sliced and fried (or paneer, or pre-cooked chicken)",
+          "A simple green salad",
+          "Naan or rice (optional)",
+        ],
+      },
+    ],
+    steps: [
+      {
+        heading: "Method",
+        steps: [
+          "Melt ¼ cup of butter in a large pan on medium heat.",
+          "Add tomato sauce, sugar, red chili powder, 1 tbsp of fenugreek leaves, and garam masala. Stir and bring to a gentle simmer.",
+          "Cook for 15 to 20 minutes until the sauce thickens and the butter starts to separate. Stir every few minutes so nothing sticks.",
+          "Add the rest of the butter and the heavy cream. Reserve a few tablespoons of cream for garnish if you want.",
+          "Taste and add salt. Simmer for 5 more minutes.",
+          "Garnish with the remaining fenugreek leaves and a drizzle of cream.",
+        ],
+      },
+      {
+        heading: "With halloumi",
+        steps: [
+          "While the sauce simmers, slice halloumi about 1 cm thick.",
+          "Fry in a dry pan on medium-high until golden on both sides (about 2 minutes per side).",
+          "Pour the curry over the halloumi, or serve them next to each other so the halloumi stays crisp.",
+          "Add a green salad on the side.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "pasta-salad",
     title: "Pasta Salad",
     description: "Bright, quick pasta salad with pesto, mozzarella, and fresh greens.",
